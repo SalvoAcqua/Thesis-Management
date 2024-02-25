@@ -1,0 +1,730 @@
+body {
+  background-color: #fafafa;
+}
+
+.warningText {
+  color: red;
+}
+
+.bluePoli {
+  background-color: #003576;
+}
+
+.blueButton {
+  background-color: #003576;
+  color : white;
+  border: none;
+}
+
+.blueButton:hover {
+  background-color: #002855;
+  color : white;
+}
+
+.orangePoli {
+  background-color: #fc7a08;
+}
+
+.orangeButton {
+  background-color: #fc7a08;
+  color : white;
+  border: none;
+}
+
+.orangeButton:hover {
+  background-color: #e65c00;
+  color: white;
+}
+
+.orangeClose {
+  color: #fc7a08;
+}
+
+.orangeClose:hover {
+  color: #e65c00;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.dragDropArea {
+  border: dashed;
+  border-width: 1px;
+}
+
+.floating-button {
+  position: fixed; 
+  bottom: 20px;    
+  right: 20px;     
+  color: white;   
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tab-pane{
+
+  min-width: 230px !important;
+
+}
+
+.MuiAutocomplete-root{
+
+  flex: 1 1 auto !important; 
+  border: 1px solid rgba(125, 123, 123, 0.42) !important;
+  border-radius: 6px !important;
+  color: #999 !important;  /* Colore del testo del placeholder */
+  padding-left: 10px !important;
+  background-color: white !important;
+
+}
+.MuiAutocomplete-root:active {
+  border-color:#86b7fe;
+  outline:0;
+  border-radius: 6px !important;
+  box-shadow:0 0 0 .25rem rgba(13,110,253,.25)
+}
+.MuiAutocomplete-input {
+
+  border-bottom: none !important;
+
+}
+
+.css-l4u8b9-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: 0px !important;
+
+} 
+.css-l4u8b9-MuiInputBase-root-MuiInput-root:after {
+  border-bottom: 0px !important;
+
+} 
+.MuiAutocomplete-input::placeholder{
+
+  color: rgba(0, 0, 0, 1) !important;  /* Colore del testo del placeholder */
+  font-style: inherit !important;
+  font-family:  "Segoe UI","Roboto","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important; 
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  letter-spacing: none !important;
+  background-color: white !important;
+  padding-left: 1px !important;
+
+
+}
+.MuiFormControl-root{
+  width: 99% !important;
+  border-radius: 6px !important;
+
+
+}
+
+.MuiInput-underline{
+  border-bottom: 0px !important;
+  height: 10% !important;
+  border-radius: 6px !important;
+  width: 101% !important;
+  font-family: inherit !important;
+  font-weight: 400px !important;
+
+}
+
+.appCard {
+  border: outset;
+}
+
+.tabElem > li > button
+{
+  background-color: white !important;
+  color: black !important;
+}
+
+.tabElem > li:first-child > button:active,
+.tabElem > li:first-child > button:focus,
+.tabElem > li:first-child .active
+{
+  background-color: #003576 !important;
+  color: white !important;
+  border-bottom: 5px solid rgb(105,144,253);
+}
+
+.tabElem > li:nth-child(2) > button:active,
+.tabElem > li:nth-child(2) > button:focus,
+.tabElem > li:nth-child(2) .active
+{
+  background-color: rgb(51,102,0) !important;
+  color: white !important;
+  border-bottom: 5px solid rgb(0,153,0);
+}
+
+.tabElem > li:last-child > button:active,
+.tabElem > li:last-child > button:focus,
+.tabElem > li:last-child .active
+{
+  background-color: rgb(153,0,0) !important;
+  color: white !important;
+  border-bottom: 5px solid rgb(228,56,56);
+}
+
+.red-border {
+  border-color: red !important;
+
+}
+
+.norm-border {
+  border-color: none !important;
+
+}
+
+.dropdown-item:hover {
+  background-color: rgba(177, 185, 192);
+  color: white
+}
+
+.dropdown-divider {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+/*BEGINNING OF MEDIA QUERY INSERT PROPOSAL*/
+
+.proposal-article{
+
+  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.545);
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out !important;
+
+}
+
+.MuiOutlinedInput-root {
+
+  font-style: italic !important;
+  font-weight: 100 !important;
+
+
+}
+
+.MuiInputBase-root{
+
+  background-color: white !important;
+
+}
+
+@media only screen and (max-width: 1270px) {
+  .MuiAutocomplete-input::placeholder{
+
+    color: #000000 !important;  /* Colore del testo del placeholder */
+    font-size: 1rem !important;
+    padding-left: none !important;
+
+
+  
+  
+  
+  }
+}
+
+@media only screen and (max-width: 1275px) {
+
+  .MuiButtonBase-root{
+
+    margin-right: 1vw !important;
+
+  }
+  .MuiAutocomplete-input::placeholder{
+
+    color: #000000 !important;  /* Colore del testo del placeholder */
+    font-size: 1rem !important;
+    padding-left: none !important;
+
+  
+  
+  
+  }
+
+  .MuiAutocomplete-root{
+
+    flex: 1 1 auto !important; 
+
+  
+  
+  }
+  
+  .bi-exclamation-triangle{
+
+    width: 12px;
+    height: 12px;
+    margin-top: 2.5px !important;
+
+
+  }
+
+  .MuiOutlinedInput-root {
+
+    width: 20vw; 
+    padding: 0px !important;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px !important;
+
+  }
+
+  
+
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+.profAppl{
+
+  font-size: 13px !important;
+  width: 80% !important;
+
+}
+
+.modalNot{
+  
+  font-size: 8px !important;
+  margin-left: 15vw !important;
+
+}
+
+  .brwbtt{
+
+    font-size: 13px !important;
+
+  }
+
+
+  .card.bg-light {
+    width: 75vw !important;
+  }
+
+  article {
+    max-width: 190px; 
+  }
+  .MuiAutocomplete-input::placeholder{
+
+    color: #000000 !important;  /* Colore del testo del placeholder */
+    font-size: 1rem !important;
+    padding-left: none !important;  
+  
+  
+  }
+  .MuiOutlinedInput-root {
+
+    width: 210px; 
+    padding: 0px; 
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px !important;
+
+  }
+  .MuiButtonBase-root{
+
+    margin-right: 1vw !important;
+
+  }
+  
+
+  .MuiAutocomplete-root{
+
+    flex: 1 1 auto !important; 
+  
+  
+  }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+  .card.bg-light {
+    width: 75vw !important;
+  }
+  .MuiAutocomplete-input::placeholder{
+
+    color: #000000 !important;  /* Colore del testo del placeholder */
+    font-size: 1rem !important;
+    padding-left: none !important;
+
+
+  
+  
+  
+  }
+  
+  article {
+    
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+
+
+  .MuiAutocomplete-root{
+
+    flex: 1 1 auto !important; 
+  
+  
+  }
+
+ 
+  .MuiOutlinedInput-root {
+
+    width: 130px; 
+    height: 6vw;
+    padding: 0px; 
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px !important;
+
+  }
+  .MuiInputBase-input{
+
+    font-size: 10px !important;
+
+
+  }
+
+  .MuiSvgIcon-root{
+
+    width: 5vw !important;
+    height: 5vw !important;
+    padding-left: 2vw !important;
+  }
+
+  .text-center {
+    font-size: 12px;
+  }
+
+  p,
+  span {
+    font-size: 12px;
+  }
+
+  textarea {
+    max-height: 8vh;
+    font-size: 9px !important;
+  }
+
+  textarea::placeholder {
+    font-size: 9px;
+  }
+
+  .form-control {
+    font-size: 12px;
+  }
+
+
+  #sendpb {
+    width: 50% !important; 
+    font-size: 8px !important;
+  }
+}
+
+/*END OF MEDIA QUERY INSERT PROPOSAL*/
+
+/*BEGINNING OF MEDIA QUERY INSERT PROPOSAL*/
+
+@media only screen and (max-width: 910px) {
+
+
+  .MuiOutlinedInput-root {
+
+    width: 20vw; 
+    height: 8vh;
+
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px !important;
+
+  }
+
+  .MuiAutocomplete-input::placeholder{
+
+    color: #000000 !important;  /* Colore del testo del placeholder */
+    font-size: 1rem !important;
+    padding-left: none !important;
+   
+
+  
+  
+  
+  }
+
+  .MuiAutocomplete-root{
+
+    flex: 1 1 auto !important; 
+  
+  
+  }
+
+  .bi-exclamation-triangle{
+
+    width: 10px;
+    height: 10px;
+    margin-top: 4px !important;
+
+
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .card.bg-light {
+    width: 75vw !important;
+  }
+  
+  .MuiAutocomplete-root{
+
+    flex: 1 1 auto !important; 
+  
+  
+  }
+
+  article {
+    max-width: 190px; 
+  }
+  .MuiOutlinedInput-root {
+
+    width: 60%; 
+    height: 5vw;
+    padding: 0px; 
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px !important;
+
+  }
+  
+  .bi-exclamation-triangle{
+
+    width: 10px;
+    height: 10px;
+    margin-top: 4px !important;
+
+
+  }
+  
+
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+  .modalNot{
+
+    font-size: 6px !important;
+    margin-left: 11vw !important;
+    width: 100% !important;
+
+  }
+
+
+  .bi-exclamation-triangle{
+
+    width: 10px;
+    height: 10px;
+    margin-top: 4px !important;
+
+
+  }
+
+  .MuiAutocomplete-root{
+
+    flex: 1 1 auto !important; 
+  
+  
+  }
+
+  .card.bg-light {
+    width: 75vw !important;
+  }
+  
+  article {
+    
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+ 
+  .MuiOutlinedInput-root {
+
+    width: 70%; 
+    height: 8vw;
+    padding: 0px; 
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px !important;
+
+
+  }
+
+  .text-center {
+    font-size: 12px;
+  }
+
+  p,
+  span {
+    font-size: 12px;
+  }
+
+  textarea {
+    max-height: 8vh;
+    font-size: 9px !important;
+  }
+
+  textarea::placeholder {
+    font-size: 9px;
+  }
+
+  .form-control {
+    font-size: 12px;
+  }
+
+
+  #sendpb {
+    width: 100%; 
+    font-size: 9px;
+  }
+
+  
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+
+  .modalNot{
+
+    font-size: 5px !important;
+    margin-left: 16vw !important;
+    width: 100% !important;
+
+  }
+
+
+}
+
+@media only screen and (max-width: 280px) {
+
+  .modalNot{
+
+    font-size: 4px !important;
+    margin-left: 20vw !important;
+    width: 100% !important;
+
+  }
+
+  .browseProf{
+
+    font-size: 11px !important;
+    margin-bottom: 20px !important;
+    margin-right: 35% !important;
+
+  }
+
+  .MuiOutlinedInput-root {
+
+    width: 95%; 
+    height: 10vw;
+    padding: 0px; 
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px !important;
+
+  }
+
+  .MuiAutocomplete-root{
+
+    flex: 1 1 auto !important; 
+  
+  
+  }
+
+  
+
+  
+  .bi-exclamation-triangle{
+
+    width: 40px;
+    height: 10px;
+    margin-top: 4px !important;
+
+
+  }
+
+
+}
+
+/*END OF MEDIA QUERY INSERT PROPOSAL*/
+
+/* If the screen size is smaller than 1200px, set the font-size to 12px */
+@media (max-width: 1199.98px) {
+  td > * {
+    font-size: 9px !important;
+  }
+
+  td {
+    font-size: 9px !important;
+  }
+
+  th {
+    font-size: 9px !important;
+  }
+
+  * {
+    font-size: 11px;
+  }
+
+}
+
+@media (max-width: 799.9px){
+  
+  .icons 
+  {
+    width: 5vw ; 
+    height: 5vw ;
+    padding: 3px;
+    font-size: 16px;
+  }
+
+  .advanced-filters-col
+  {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 800px){
+  
+  .icons 
+  {
+    width: 2vw ; 
+    height: 2vw ;
+    padding: 3px;
+    font-size: 18px;
+  }
+
+  .advanced-filters-col
+  {
+    flex-grow: 1 !important;
+    flex-shrink: 0 !important;
+    flex-basis: 0% !important; 
+  }
+}
+
+.change-bg-on-hover:hover
+{
+  background-color:rgb(239, 237, 237);
+}
